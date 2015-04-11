@@ -1,14 +1,13 @@
 
 /*************************************************************************
- *   @author: noones
- *	Compilation:  javac crccheck.java
+ *   @author: noones	
+ *  Compilation:  javac crccheck.java
  *  Execution:    java crccheck  c filename.txt			--> to calculate crc
- *	Execution:    java crccheck  v filename.txt			-->to verify crc
+ *  Execution:    java crccheck  v filename.txt			--> to verify crc
  *  
  *
  *  1 + x^3 + x^7 + x^8 + x^10 + x^16 is polynomial.
- *
- * x 15+x13+ x6+x4+x1+1  1010000001010011
+ * 
  *************************************************************************/
 
 import java.io.BufferedOutputStream;
